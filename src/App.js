@@ -1,23 +1,109 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import styled from '@emotion/styled';
 import './App.css';
 
-function App() {
+import Quotes from "./quotes.json";
+import Authors from "./authors.json";
+import Tags from "./tags.json";
+
+
+const Header = styled.span`
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 1em;
+`;
+
+const Container = styled.div`
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+const Item = styled.div`
+  margin: 1em;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0.4em 0.6em 0.4em #888888;
+  &:hover {
+    background-color: #F8F8F8;
+  }
+`;
+
+const ItemText = styled.span`
+  font-size: 1.2em;
+`;
+
+const ItemAuthor = styled.span`
+  font-size: 1em;
+  color: gray;
+  font-style: italic;
+`;
+
+const ItemTagsDiv = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em;
+`;
+
+const ItemTag = styled.div`
+  font-size: 0.6em;
+  border: solid 1px gray;
+  border-radius: 0.3em;
+  box-shadow: 0.1em 0.2em 0.1em #888888;
+  margin: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #215AA7;
+    color: white;
+  }
+`;
+
+const App = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    setItems(Quotes.map((quote, idx) => {
+      const item = {...quote};
+      item.author = Authors[item.author.toString()];
+      item.tags = item.tags.map((tag, idx) => Tags[tag.toString()]);
+      return item;
+    }));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header>On Load</Header>
+      <Container>
+        {items.map((item, idx) => {
+          return (
+            <Item>
+              <ItemText>
+                {item.text}
+              </ItemText>
+              <ItemAuthor>
+                {item.author}
+              </ItemAuthor>
+
+              <ItemTagsDiv>
+                {item.tags.map((tag, idx) => {
+                  return (
+                    <ItemTag>
+                      {tag}
+                    </ItemTag>
+                  );
+                })}
+              </ItemTagsDiv>
+            </Item>
+          );
+        })}
+      </Container>
+
     </div>
   );
 }
