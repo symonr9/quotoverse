@@ -1,17 +1,248 @@
 [
     {
-        "text": "This is the quote 1",
-        "author": 1,
-        "tags": [1, 2, 3, 4]
-    },
-    {
-        "text": "This is the quote 2",
+        "text": "And exactly there where the cross stands, the resurecction is near. Exactly there where everyone begins to doubt God, where everyone falls into despair about God's power, there God is fully, there Christ is alive and near. Where it hangs by a thread whether one will desert the cause or remain faithful, there God is, there Christ is fully. Where the power of darkness wants to overpower the light of God, there God triumps and judges the darkness.",
         "author": 2,
-        "tags": [2, 5, 6]
+        "tags": [1, 35, 32, 14],
+        "notes": ""
     },
     {
-        "text": "This is the quote 3",
-        "author": 1,
-        "tags": [2, 3, 4, 5, 6]
+        "text": "He only wants to live because he can wait for God. He can do nothing but wait, wait alertly, passionately, completely taken up with it, deaf to anyone who would confuse him with doubts, blind to any power that would step between him and that future of God's.",
+        "author": 2,
+        "tags": [2, 27, 36, 4],
+        "notes": ""
+    },
+    {
+        "text": "He only cares about one thing: he wants to see God. He wants to recognize God. He wants to hear God. He wants to know God. He wants to serve God. He does not want anything else, at least nothing else as much as he wants God.",
+        "author": 2,
+        "tags": [2, 27, 36, 4],
+        "notes": ""
+    },
+    {
+        "text": "The waiting person expects everything, everything from God. He expects God himself and makes room for him; he wants nothing for himself, everything for God",
+        "author": 2,
+        "tags": [2, 27, 36, 4],
+        "notes": ""
+    },
+    {
+        "text": "No one can wait for God unless he knows that God has long been waiting for him.",
+        "author": 2,
+        "tags": [2, 27, 36, 4, 37],
+        "notes": ""
+    },
+    {
+        "text": "The church will be at the height of its hypocrisy when it calls obedience 'legalism'.",
+        "author": 18,
+        "tags": [2, 33, 38],
+        "notes": ""
+    },
+    {
+        "text": "You may be always sure that that which comes from the devil will make you look at yourself and not at Christ.",
+        "author": 3,
+        "tags": [2, 13, 25, 31, 36, 38],
+        "notes": ""
+    },
+    {
+        "text": "He stands between us and God, and for that very reason he stands between us and all other men and things. He is the mediator, not only between God and man, but between man and man, between man and reality.",
+        "author": 2,
+        "tags": [1, 22, 8, 28, 39, 42],
+        "notes": "1 Tim 2:15"
+    },
+    {
+        "text": "Be not decived, Wormwood, our cause is never more in jeopardy than when a human, no longer desiring but still intending to do our Enemy's will, looks round upon a universe in which every trace of Him seems to have vanished, and asks why he has been forsaken, and still obeys.",
+        "author": 17,
+        "tags": [3, 14, 25, 31, 38],
+        "notes": ""
+    },
+    {
+        "text": "The Bible is never intended to terrify us. God does not want human beings to be afraid, not even of the Last Judgment. We are to know all about this so that we can understand about life and its meaning. God lets people know about it now, today, so that today we can lead our lives in the open awareness and the light of the Last Judgment. We are to know only for one reason - so that we human beings will find the way to Jesus Christ, so that we will turn from our evil ways, turn back and seek to encounter Jesus Christ.",
+        "author": 2,
+        "tags": [11, 10, 33, 38, 39, 43],
+        "notes": "2 Cor. 5:10"
+    },
+    {
+        "text": "Christ sits in judgment, which means that grace is the judge, and forgiveness, and love - whoever clings to them has already been acquitted. Those, of course, who want to be judged by their own works, Christ will judge and pass sentence based on those works.",
+        "author": 2,
+        "tags": [11, 10, 33, 38, 39, 43],
+        "notes": "2 Cor. 5:10"
+    },
+    {
+        "text": "What about the 'good and evil' about which Christ will ask us on that final day? The good is nothing other than our asking for and receiving his grace. The evil is only feear and wanting to stand before God on our own and justify ourselves.",
+        "author": 2,
+        "tags": [11, 10, 33, 38, 39, 43],
+        "notes": "2 Cor. 5:10"
+    },
+    {
+        "text": "To whom it can be given, there is no dearer thing on earth than a woman's love",
+        "author": 7,
+        "tags": [40, 22, 8, 7],
+        "notes": "A saying"
+    },
+    {
+        "text": "Little faith will bring the soul to heaven, but much faith will bring heaven to the soul.",
+        "author": 3,
+        "tags": [10, 32, 44, 38],
+        "notes": ""
+    },
+    {
+        "text": "This book will keep you from sin or sin will keep you from this book.",
+        "author": 5,
+        "tags": [38, 5],
+        "notes": ""
+    },
+    {
+        "text": "He who desires to keep the grace of God ought to be grateful when it is given and patient when it is withdrawn.",
+        "author": 12,
+        "tags": [6, 27, 2],
+        "notes": ""
+    },
+    {
+        "text": "If you create your own meaning in life, any amount of circumstance can steal that from you. If you decide your own purpose in life, you are subject to change by the wind - but if God is your reason, no circumstance can shake you.",
+        "author": 4,
+        "tags": [23, 42],
+        "notes": ""
+    },
+    {
+        "text": "We need of the Spirit of Christ, without whom all our works are nothing else than damnable.",
+        "author": 7,
+        "tags": [38, 33, 17],
+        "notes": ""
+    },
+    {
+        "text": "What matters is participating in the reality of God and the world in Jesus Christ today, and doing so in such a way that I never experience the reality of God without the reality of the world, nor the reality of the world without the reality of God.",
+        "author": 2,
+        "tags": [1, 24, 36, 39],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
+    },
+    {
+        "text": "",
+        "author": 0,
+        "tags": [],
+        "notes": ""
     }
 ]

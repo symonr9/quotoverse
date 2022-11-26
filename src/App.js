@@ -81,6 +81,8 @@ const App = () => {
       <Header>On Load</Header>
       <Container>
         {items.map((item, idx) => {
+          if (!item.text) 
+            return <></>;
           return (
             <Item>
               <ItemText>
