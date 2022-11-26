@@ -15,12 +15,19 @@ const Header = styled.span`
 `;
 
 const Container = styled.div`
+  margin: 1em;
+`;
+
+const ItemContainer = styled.div`
+  margin: 4em;
   padding: 2em;
+  border: solid 1px black;
   display: flex;
   flex-wrap: wrap;
 `;
 
 const Item = styled.div`
+  flex: 3 2 25%;
   margin: 1em;
   border: solid 1px black;
   display: flex;
@@ -77,9 +84,9 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Header>On Load</Header>
-      <Container>
+    <Container>
+      <Header>Quotoverse</Header>
+      <ItemContainer>
         {items.map((item, idx) => {
           if (!item.text) 
             return <></>;
@@ -104,9 +111,9 @@ const App = () => {
             </Item>
           );
         })}
-      </Container>
+      </ItemContainer>
 
-    </div>
+    </Container>
   );
 }
 
